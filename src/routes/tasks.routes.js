@@ -15,15 +15,15 @@ const router = Router();
 router.get("/tasks", getAllTasks);
 
 //MOSTRAR(LISTAR UNA)
-router.get("/tasks/10", getTask);
+router.get("/tasks/:id", getTask);
 
 //CREAR
 router.post("/tasks", createTask);
 
 //BORRAR
-router.delete("/tasks", deleteTask);
+router.delete("/tasks/:id", deleteTask);
 
 //ACTUALIZAR
-router.put("/tasks", updateTask);
+router.put("/tasks/:id", updateTask);
 
 module.exports = router;

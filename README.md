@@ -10,3 +10,10 @@ para probar las peticiones put, post y delete utilizo:
 
 modulo para conectar con postgreSQL(este modulo permite conectar y ejecutar consultas)
 npm i pg
+para movereme dentro de la consola pg:
+\l => muestra toas las base de datos
+\ c baseDdatos =>entro a la base de datos
+
+VARIABLES DE ENTORNO
+npm i dotenv
+lñuego cuento un fichero ".env"
