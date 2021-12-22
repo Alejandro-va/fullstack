@@ -2,7 +2,7 @@
 node_modules
 
 #enviroment variants
-.env
+#si deseo no subirla debo descomentarla, aca estan mis claves ".env "
 
 # production
 build
