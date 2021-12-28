@@ -13,7 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<TaskList />} />
           <Route path="/tasks/new" element={<TaskForm />} />
-          {/* edit row */}
+          <Route path="/tasks/:id/edit" element={<TaskForm />} />
         </Routes>
       </Container>
     </BrowserRouter>

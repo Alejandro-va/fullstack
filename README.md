@@ -17,3 +17,43 @@ para movereme dentro de la consola pg:
 VARIABLES DE ENTORNO
 npm i dotenv
 lñuego cuento un fichero ".env"
+
+---
+
+para excluir archivos en el desarrollo
+workspace
+preferences: open workspaces setting (JSON)
+{
+"files.exclude": {
+"**/.git": true,
+"**/.svn": true,
+"**/.hg": true,
+"**/CVS": true,
+"**/.DS_Store": true,
+"**/Thumbs.db": true,
+"**/node_modules": true,
+"**client/node_modules": true
+}
+}
+
+---
+
+para las rutas(dentro de la carpeta client)
+npm i react-router-dom (debe ser de las version 6 en adelamte pq rompe cn la 5)
+
+---
+
+pag de ui
+https://mui.com/
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+// with npm
+npm install @mui/icons-material
+
+---
+
+para correr bakend
+npm run dev
+para entrar a la carpeta front
+\cd client
+npm start
